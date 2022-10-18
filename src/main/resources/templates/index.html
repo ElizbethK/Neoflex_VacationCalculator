@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VacationPayCalculator</title>
+</head>
+<style>
+    body{
+        max-width: 900px;
+        margin:  0 auto;
+        border: 1px solid #ffe600;
+        padding: 10px;
+        text-align: center;
+        justify-content: space-around;
+    }
+</style>
+
+<body>
+<p><h1>Welcome!</h1></p>
+<h4>input your data: </h4>
+
+<p></p>
+<form th:action="@{/calculate}" method="POST" th:object="${calculator}">
+    <label for = "salary">Your salary, USD:</label>
+    <p><input th:field="*{salary}" type="text" id="salary" placeholder="Average month`s salary, USD" pattern="^[ 0-9]+$" required/></p>
+
+    <label for = "days">Number of vacation days:</label>
+    <p><input th:field="*{days}" type="text" id="days" placeholder="Number of vacation days" pattern="^[ 0-9]+$" required/></p>
+    <p><input type="submit" value= "Calculate"/>
+</form>
+
+</body>
+</html>

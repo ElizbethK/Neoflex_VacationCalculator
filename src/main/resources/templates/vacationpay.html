@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VacationPayResult</title>
+</head>
+<style>
+    body{
+        max-width: 900px;
+        margin:  0 auto;
+        border: 1px solid #42f806;
+        padding: 10px;
+        text-align: center;
+        justify-content: space-around;
+    }
+</style>
+<body>
+<p><h2>Your amount of vacation pay, USD:</h2></p>
+<p th:text="${calculator.getResult()}"/>
+</body>
+</html>
