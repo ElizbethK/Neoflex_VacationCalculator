@@ -1,7 +1,7 @@
-# Neoflex_VacationCalculator
-Introductory task
+# The application "Vacation Calculator".
+--Introductory task--
 
-The application "Vacation Calculator".
+
 Microservice on Springbot + Java 11 with one API:
 GIT "/calculacte"
 
