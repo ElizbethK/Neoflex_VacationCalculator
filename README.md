@@ -2,7 +2,7 @@
 --Introductory task--
 
 
-Microservice on Springbot + Java 11 with one API:
+Microservice on Springboot + Java 11 with one API:
 GIT "/calculacte"
 
 
